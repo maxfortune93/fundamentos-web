@@ -5,10 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Perfil</title>
+    <link rel="stylesheet" href="assets/Css/style.css">
+    
+      <!--  <style>
+            p{
+                text-align: center;
+                font-size: 22px;
+            }
+            
+        </style>
+        
+        essa é a maneira de chamar o css interno . Podemos usar uma classe ou um Id
+    
+   ***** Caso de um Id :
+    <style>
+            #p1{
+                text-align: center;
+                font-size: 22px;
+            }
+    </style>        
+
+    ***** Caso de uma classe :
+     <style>
+            .p1{
+                text-align: center;
+                font-size: 22px;
+            }
+    </style>        
+
+
+             -->
+
 </head>
 <body>
 
-    <ul>
+    <ul id="menu">
         <li>
             <a href="file:///E:/fundamentos-web/fundamento-web1/index.html"> Home </a>
         
@@ -20,21 +51,50 @@
         </li>
         
     </ul>
-    <h1>Sobre Marouane</h1>
-    <p>
+    <h1 class="center">Sobre Marouane</h1>
+
+   <!-- A maneira de chamar o css in line
+        <p style="font-size: 20px;">  <-----
        Lorem ipsum dolor sit amet consectetur adipisicing elit.
        Deserunt impedit magni eligendi libero possimus error voluptates? 
         harum enim ad ullam in exercitationem non sequi. Natus, tenetur sequi? Ullam, quos. 
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-       Deserunt impedit magni eligendi libero possimus error voluptates? 
-        harum enim ad ullam in exercitationem non sequi. Natus, tenetur sequi? Ullam, quos. 
-    </p>
-    <img src="assets/img/will smith.jpg" alt="Foto do Criador">
+    </p>  -->
+            
+    <!-- ****** Maneira interna :
 
-    <h2>Meu video</h2>
+        caso de um Id: ela é usado por um elemento so ou Tags.
+        <p id= "p1"> 
+            pofbujmebjejevbek vk jf mvùeb jv nv evibeivnbnoaernbibjarvbeajrbvajern.
+        </p>
+
+
+        caso de uma Class : pode usar para varios elementos ou Tags
+    <p class= "p1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores reiciendis accusamus facere necessitatibus quidem incidunt, dicta animi accusantium corrupti consectetur. Natus aperiam error commodi labore recusandae numquam sed dolorum cum.
+    </p> -->
+    <div class="container";>
+
+        <div>
+            <img class="border width padding" src="assets/img/will smith.jpg" alt="Foto do Criador">
+        </div>
+        <div class="padding">
+            <p class="center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+               Deserunt impedit magni eligendi libero possimus error voluptates? 
+                harum enim ad ullam in exercitationem non sequi. Natus, tenetur sequi? Ullam, quos. 
+            </p>
+            <p class="justify">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam nesciunt ex vitae numquam quia atque ratione accusantium, vel, rerum minus sunt provident dolores. Tempora, at? Soluta voluptate iste error totam.
+            </p>
+        </div>
+
+        
+    </div>
     
+    
+
+    <h2 class="center">Meu video</h2>
+   <div class="container mb-50"> <!--mb= margin botton(pra baixo)-->
     <iframe 
     width="560" 
     height="315" 
@@ -44,6 +104,30 @@
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
     allowfullscreen
     ></iframe>
+    </div> 
+    
+   <hr>
 
+   <footer>
+       <div class="container">
+           <a href="https://www.linkedin.com/" target="_blank">
+            <img class="tm-social padding" src="assets/img/linkedin.png" alt="Logo do linkedin">
+           </a>
+
+           <a href="https://www.facebook.com/" target="_blank">
+            <img class="tm-social padding" src="assets/img/facebook.png" alt="Logo do facebook">
+        </a>
+
+        <a href="https://www.instagram.com/" target="_blank">
+            <img class="tm-social padding" src="assets/img/instagram.png" alt="Logo do instagram">
+        </a>
+           
+         
+       </div>
+    <p class="center">
+        Todos os direitos reservados: Marouane &copy;
+    </p>
+   </footer>
+   
 </body>
 </html>
