@@ -1,0 +1,53 @@
+.center{
+    font-size: 35px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-items: center
+}
+
+.container2{
+    display: flex;
+    flex-flow: row;
+    justify-content:center;
+    align-items: center
+    
+}
+
+
+.width{
+    width: 600px;
+     height:600px;
+}
+
+.ml-50{
+    margin-left: 50px;
+}
+
+.ml1-50{
+    margin-left: 400px;
+}
+
+
+.mr-50{
+    margin-right: 50px;
+}
+
+
+.mb-150{
+    margin-bottom:75px;    
+}
+.posicao1{
+    float:left;
+    margin-left: 100px;
+}
+.posicao2{
+    float: right;
+   margin-right: 500px;
+}
+
+
